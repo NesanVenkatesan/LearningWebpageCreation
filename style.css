@@ -1,0 +1,32 @@
+#count{
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+#dicenumber{
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+#b{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 55%;
+    top:10%;
+}
+
+#board{
+    position: absolute;
+    left: 55%;
+    top:14%;
+}
+
+.clabel{
+    font-weight: bold;
+}
+
+#convert{
+    font-weight: bold;
+    background-color: yellow;
+}
