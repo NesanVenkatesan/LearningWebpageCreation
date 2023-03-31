@@ -67,6 +67,8 @@ document.getElementById("submit").onclick=function(){
     }
     else if(guess == number){
         show.innerHTML = `<b>Yay! You found it</b> <br> ${number} is the Original Number <br> It took you ${tries} guesses. <br> <b>Refresh the page to start new</b>`;
+        number = Math.floor(Math.random()*20 + 1);
+        tries = 0; 
     }
 
 }
